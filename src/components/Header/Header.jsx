@@ -52,7 +52,7 @@ const Header = () => {
 
                         <div className="mobile__menu">
                             <span ><i class="ri-menu-line"></i></span> 
-                            {/* aca lo deje min 18:58 */}
+                          
                         </div>
                     </div>
                 </div> {/* fin div wreapper */}

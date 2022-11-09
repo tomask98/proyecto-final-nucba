@@ -1,12 +1,15 @@
-import Routes from "./routes/routes"
+import React from "react";
+
+import "./App.css";
+import Layout from "./components/Layout/Layout";
+
+
+
+
 function App() {
 
 
-  return (
-    
-     <Routes />
-   
-  )
+  return (<Layout/>)
+  
 }
-
 export default App

@@ -1,14 +1,24 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import { BrowserRouter } from 'react-router-dom';
+import "remixicon/fonts/remixicon.css"
+import "bootstrap/dist/css/bootstrap.css"
+
+import "./App.css"
+
+import {  BrowserRouter} from "react-router-dom";
+
 
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-     <BrowserRouter>
+
+   <React.StrictMode>
+    <BrowserRouter>
     <App />
     </BrowserRouter>
-  </React.StrictMode>
+   
+    </React.StrictMode>
+    
+ 
 )

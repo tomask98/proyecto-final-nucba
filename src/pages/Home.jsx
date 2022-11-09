@@ -1,9 +1,8 @@
 import React from 'react'
+import pestana from '../components/pestana/pestana'
 
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
+  return <pestana title={"Home"}></pestana>
 }
 
 export default Home

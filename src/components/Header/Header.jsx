@@ -22,7 +22,7 @@ const nav__link = [
   },
   {
     path: "cart",
-    display: "carrito",
+    display: "Carrito",
   },
 ];
 const Header = () => {
@@ -71,7 +71,7 @@ const Header = () => {
 
               <span>
                 {" "}
-                <motion.img whileTap={{scale:1.2}} src={usericon} alt="icono usuario" />
+                <motion.img whileTap={{scale:1.3}} src={usericon} alt="icono usuario" />
               </span>
             </div>
 

@@ -1,0 +1,99 @@
+.service__item{
+    padding: 20px;
+    background: var(--card-bg-01);
+    display: flex;
+    align-items: center;
+    column-gap:0.5rem ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.service__item i {
+    font-size: 2rem;
+    color: var(--Cards-text-color);
+    font-weight: 200;
+   
+    padding: 10px;
+    border-radius: 50%;
+    color: black;
+    border: 1px solid var(--card-bg-02);
+}
+.service__item h3{
+    color: var( --Cards-text-color);
+    font-weight: 600;
+    font-size: 1.5rem;
+    align-items: center;
+}
+.service__item p {
+    color: var(--Cards-text-color);
+    font-size: 1rem;
+    margin-top: 5px;
+} 
+/* fin card 1 */
+
+.service__item2{
+    padding: 20px;
+    background: var(--card-bg-02);
+    display: flex;
+    align-items: center;
+    column-gap:0.5rem ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.service__item2 i {
+    font-size: 2rem;
+    color: var(--Cards-text-color);
+    font-weight: 200;
+   
+    padding: 10px;
+    border-radius: 50%;
+    color: black;
+    border: 1px solid var(--card-bg-01);
+}
+.service__item2 h3{
+    color: var( --Cards-text-color);
+    font-weight: 600;
+    font-size: 1.5rem;
+    align-items: center;
+}
+.service__item2 p {
+    color: var(--Cards-text-color);
+    font-size: 1rem;
+    margin-top: 5px;
+}
+/*fin card2*/
+.service__item3{
+    padding: 20px;
+    background: var(--card-bg-03);
+    display: flex;
+    align-items: center;
+    column-gap:0.5rem ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.service__item3 i {
+    font-size: 2rem;
+    color: var(--Cards-text-color);
+    font-weight: 200;
+   
+    padding: 10px;
+    border-radius: 50%;
+    color: black;
+    border: 1px solid var(--card-bg-01);
+}
+.service__item3 h3{
+    color: var( --Cards-text-color);
+    font-weight: 600;
+    font-size: 1.5rem;
+    align-items: center;
+}
+.service__item3 p {
+    color: var(--Cards-text-color);
+    font-size: 1rem;
+    margin-top: 5px;
+}
+.service__link{
+    text-decoration: none;
+    width: auto;
+    height: auto;
+}
+/*fin card3*/

@@ -5,6 +5,8 @@ import Helmet from "../components/helmet/helmet";
 import { Container, Row, Col } from "reactstrap";
 import heroImg from "../assets/banner.png";
 import "../styles/home.css"
+
+import Services from "../services/Services";
 const Home = () => {
   const year = new Date().getFullYear();
   return (
@@ -31,6 +33,7 @@ const Home = () => {
           </Row>
         </Container>
       </section>
+      <Services/>
     </Helmet>
   );
 };

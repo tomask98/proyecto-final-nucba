@@ -3,14 +3,15 @@
 
 /*  css variables */
 :root {
-  --card-bg-01: #fdefe6;
-  --card-bg-02: #d6e5fb;
-  --card-bg-03: #ceebe9;
-  --card-bg-04: #e2f2b2;
+  --card-bg-01 :#5a7f39;
+  --card-bg-02: #264e04;
+  --card-bg-03: #8ca451;
+  --card-bg-04: #264e04;
   --primary-color: #455e2c;
   --hero-bg: #bac0ba;
   --heading-fontSize: 3rem;
   --small-text-color: #fafafa;
+  --Cards-text-color: #ffffff;
   --heading-text-color: #264e04;
   
 }

@@ -1,15 +1,15 @@
-import LenguaDeSuegra from "src\assets\plantas-indor\LenguaDeSuegra-interior.png";
-import Monstera from "src\assets\plantas-indor\Monstera-interior.png";
-import PaloDeAgua from "src\assets\plantas-indor\PaloDeAgua-interior.png";
-import Potus from "src\assets\plantas-indor\Potus-interior.png";
-import Yucca from "src\assets\plantas-indor\YuccaElephantipes-interior.png";
-import zamioculca from "src\assets\plantas-indor\zamioculca-interior.png";
-import agapanto from "src\assets\plantas exterior\agapanto-azul-exterior.png"
-import jasmin from "src\assets\plantas exterior\jasmin-chino-exterior.png";
-import ficus from "src\assets\plantas exterior\ficus-trenzado-exterior.png";
-import lavanda from "src\assets\plantas exterior\Lavanda-exterior.png";
-import miniRosa from "src\assets\plantas exterior\mini-rosa-exterior.png";
-import rosaDesierto from "src\assets\plantas exterior\rosa-del-desierto- exterior.png"
+import LenguaDeSuegra from "../plantas-indor/LenguaDeSuegra-interior.png";
+import Monstera from "../plantas-indor/Monstera-interior.png";
+import PaloDeAgua from "../plantas-indor/PaloDeAgua-interior.png";
+import Potus from "../plantas-indor/Potus-interior.png";
+import Yucca from "../plantas-indor/YuccaElephantipes-interior.png";
+import zamioculca from "../plantas-indor/zamioculca-interior.png";
+import agapanto from "../plantas-exterior/agapanto-azul-exterior.png"
+import jasmin from "../plantas-exterior/jasmin-chino-exterior.png";
+import ficus from "../plantas-exterior/ficus-trenzado-exterior.png";
+import lavanda from "../plantas-exterior/Lavanda-exterior.png";
+import miniRosa from "../plantas-exterior/mini-rosa-exterior.png";
+import rosaDesierto from "../plantas-exterior/rosa-del-desierto- exterior.png"
 
 
 const products = [
@@ -111,6 +111,8 @@ const products = [
         price:123,
         shortDescr: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!"
     },
+
+    
     
 ]
 export default products;

@@ -1,0 +1,44 @@
+.footer{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background: var(--card-bg-03);
+}
+.footer img{
+    height: 100px;
+    width: 100px;
+}
+.footer h1{
+    color: white;
+    font-size: 2rem;
+}
+.footer_quick-links ul li {
+    background: transparent;
+}
+.footer_quick-links ul li p{
+    color: black;
+    font-size: 1.05rem;
+    
+}
+
+.footer_quick-links ul li a{
+    text-decoration: none;
+    font-size: 1.05rem;
+    
+}
+    .footer__text{
+    color: black;
+    line-height: 30px;
+}
+.footer__Git{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 600;
+}
+.footer__Git a{
+    text-decoration: none;
+    color: black;
+    
+}

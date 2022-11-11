@@ -7,8 +7,8 @@ import './services.css'
 
 const Services = () => {
   return <section className="services">
-    <Container>
-        <Row>
+    <Container className='servicesCont'>
+        <Row className='d-flex  justify-content-between'>
             <Col lg='4' md='3'>
                 <motion.div whileHover={{scale:1.05}} className="service__item">
                     <span > <i class="ri-truck-line"></i></span>

@@ -1,6 +1,6 @@
 .hero__section{
     background:var(--hero-bg);
-    padding: 60px 0px 0px;
+    padding: 60px 0px 10px;
     
 }
 
@@ -63,4 +63,35 @@
 .store__btn a:hover {
     color: var(--primary-color);
     
+}
+@media only screen and (max-width: 992px){
+    .hero_content h2{
+        font-style: 2rem;
+    }
+    
+    .hero__section{
+        height: auto;
+    }
+    
+   
+}
+@media only screen and (max-width: 768px){
+    .hero_content h2{
+        font-style: 1.6rem;
+    }
+    .hero_content p{
+        font-size: 0.9rem;
+    }
+    .hero__section{
+        height: auto;
+    }
+   
+   
+  
+}
+@media only screen and (max-width: 568px){
+    .hero_content{
+        padding-top: 0;
+
+    }
 }

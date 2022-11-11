@@ -97,3 +97,48 @@
     height: auto;
 }
 /*fin card3*/
+@media only screen and (max-width: 992px){
+    .service__item span i , .service__item2 span i, .service__item3 span i{
+        font-size: 1.8rem;
+        padding: 5px;
+    }
+    .service__item h3, .service__item2 h3, .service__item3 h3{
+        font-size: 1rem;
+    }
+
+    .service__item,.service__item2,.service__item3{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-bottom: 1.5rem;
+        height: 180px;
+        width: 200px;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    .service__item span i , .service__item2 span i, .service__item3 span i{
+        margin-bottom: 1rem;
+    }
+    .service__item h3, .service__item2 h3, .service__item3 h3{
+        font-size: 1.4rem;
+    }
+
+    .service__item,.service__item2,.service__item3{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: auto;
+        
+    }
+   
+}
+@media only screen and (max-width: 568px ){
+    .service__item,.service__item2,.service__item3{
+     padding: 20px;
+     margin: 10px 0 10px;
+        
+    }
+    
+}
+

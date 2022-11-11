@@ -94,4 +94,22 @@
         padding-top: 0;
 
     }
+    .timer__count{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+
+    }
+    .Clock__top-content{
+        text-align: center;
+    }
+  
+    .text-end{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+   
 }

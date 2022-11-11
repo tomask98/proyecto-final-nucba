@@ -42,3 +42,47 @@ cursor: pointer;
     height: 400px;
 max-width: 300px;
 }
+@media only screen and (max-width: 992px){
+    .product__info h3 a{
+        font-size: 1rem;
+        font-weight: 600;
+        
+    }
+    .product__item img{
+        height: 250px;
+        width: 200px;
+    }
+    
+
+}
+@media only screen and (max-width: 768px){
+    .product__info h3 a{
+        font-size: 1rem;
+        font-weight: 600;
+        
+    }
+    .product__item{
+        display: flex;
+        flex-direction: column;
+       
+        width: 300px;
+        margin: 10px;
+    }
+    .product__img{
+        display: flex;
+        justify-content: center;
+    }
+    .col-lg-3{
+        display: flex;
+        justify-content: center;
+    }
+    
+
+}
+@media only screen and (max-width: 568px){
+    .product__info h3 a{
+        font-size: 1.2rem;
+        font-weight: 600;
+        
+    }
+}

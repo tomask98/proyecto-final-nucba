@@ -5,7 +5,24 @@ import "../../styles/product-card.css";
 import { Col } from "reactstrap";
 import { Link } from "react-router-dom";
 
+import { useDispatch } from "react-redux";
+import { cartActions } from "../../redux/Slices/cartSlice";
+
 function ProductCard({ item }) {
+  const dispatch = useDispatch();
+
+  const addToCart = () => {
+    dispatch(
+      cartActions.addItem({
+        id: item.id,
+        name: item.name,
+        price: item.price,
+        image: item.imgUrl,
+      })
+    );
+    alert('producto agregado al carrito')
+  };
+
   return (
     <Col lg="3">
       <div className="product__item">
@@ -20,7 +37,7 @@ function ProductCard({ item }) {
         </div>
         <div className="product__card-bottom d-flex alig-items-center justify-content-between p-2">
           <span className="price">${item.price}</span>
-          <motion.span whileTap={{ scale: 1.1 }}>
+          <motion.span whileTap={{ scale: 1.1 }} onClick={addToCart}>
             <i class="ri-add-line" />
           </motion.span>
         </div>

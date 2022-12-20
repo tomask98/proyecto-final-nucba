@@ -1,30 +1,35 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App'
-import "remixicon/fonts/remixicon.css"
-import "bootstrap/dist/css/bootstrap.css"
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import "remixicon/fonts/remixicon.css";
+import "bootstrap/dist/css/bootstrap.css";
 
-import "./App.css"
+import "./App.css";
 
-import {  BrowserRouter} from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 import store from "./redux/store";
-import {Provider} from "react-redux"
+import { Provider } from "react-redux";
 
+import {  ToastContainer } from "react-toastify" 
+import 'react-toastify/dist/ReactToastify.css';
 
-
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-
-   <React.StrictMode>
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
     <BrowserRouter>
-    <Provider store={store}>
+      <Provider store={store}>
+        <ToastContainer
+          theme="dark"
+          position="top-right"
+          autoClose={3000}
+         
+          closeOnClick
+          
+          pauseOnHover={false}
+        />
 
-    <App />
-    </Provider>
+        <App />
+      </Provider>
     </BrowserRouter>
-   
-    </React.StrictMode>
-    
- 
-)
+  </React.StrictMode>
+);

@@ -1,0 +1,18 @@
+.Common__Section{
+    background: url('../assets/seccion_comun.png') no-repeat ;
+    background-size: cover;
+    height: 400px;
+    padding: 100px 0px;
+   display: flex;
+   align-items: center;
+   justify-content :center; 
+    
+    
+}
+.Common__Section h1{
+    color: white;
+    
+    font-weight: 700;
+    
+   
+}

@@ -4,6 +4,7 @@ import React from "react";
 import "../../styles/product-card.css";
 import { Col } from "reactstrap";
 import { Link } from "react-router-dom";
+import {  toast } from 'react-toastify';
 
 import { useDispatch } from "react-redux";
 import { cartActions } from "../../redux/Slices/cartSlice";
@@ -20,7 +21,7 @@ function ProductCard({ item }) {
         image: item.imgUrl,
       })
     );
-    alert('producto agregado al carrito')
+    toast.success("Producto agragado al carrito")
   };
 
   return (

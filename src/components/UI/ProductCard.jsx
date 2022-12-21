@@ -27,8 +27,8 @@ function ProductCard({ item }) {
   return (
     <Col lg="3">
       <div className="product__item">
-        <motion.div whileHover={{ scale: 1.1 }} className="product__img">
-          <img src={item.imgUrl} alt="" />
+        <motion.div whileHover={{ scale: 1.1 }} className="product__img" >
+          < img src={item.imgUrl} alt=""  /> 
         </motion.div>
         <div className="P-2 product__info">
           <h3 className="product__name">

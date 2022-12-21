@@ -28,7 +28,7 @@ const Services = () => {
                 </motion.div>
             </Col>
             <Col lg='4' md='3'>
-                 <a className='service__link' href="https://api.whatsapp.com/send?phone=3516609156">
+                 <a className='service__link' href="https://api.whatsapp.com/send?phone=">
                  <motion.div whileHover={{scale:1.05}} className="service__item3">
                     <span >  <i class="ri-whatsapp-line"></i> </span>
                     <div>

@@ -16,3 +16,15 @@
     
    
 }
+
+@media only screen and (max-width: 768px){
+    .Common__Section{
+        padding: 70px 0px;
+
+    }
+    .Common__Section h1{
+        font-size: 1.4rem;
+        
+    }
+    
+}

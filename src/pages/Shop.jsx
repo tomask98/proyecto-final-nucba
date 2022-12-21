@@ -8,6 +8,9 @@ import "../styles/shop.css";
 import products from "../assets/data/products";
 import ProductList from "../components/UI/ProductList"
 
+import error from "../assets/404-gif.gif";
+
+
 
 const Shop = () => {
   const [productsData, setProductData] = useState(products);
@@ -26,7 +29,17 @@ const Shop = () => {
       );
       setProductData(filteredProducts);
     }
+    
   };
+
+  const handleSearch = e =>{
+    const searchTerm = e.target.value 
+
+    const searchedProducts = products.filter(item => item.name.toLocaleLowerCase().includes(searchTerm.toLowerCase()))
+
+    setProductData(searchedProducts)
+ 
+  }
   return (
     <Helmet title="Productos">
       <CommonSection title="Productos" />
@@ -34,7 +47,7 @@ const Shop = () => {
       <section >
         <Container>
           <Row>
-            <Col lg="3" md="4">
+            <Col lg="3" md="6">
               <div className="filter__widget">
                 <select onChange={handleFilter}>
                   <option>Categorias</option>
@@ -43,7 +56,7 @@ const Shop = () => {
                 </select>
               </div>
             </Col>
-            <Col lg="3" md="3">
+            <Col lg="3" md="6">
               <div className="filter__widget">
                 <select>
                   <option>Ordenar Por</option>
@@ -52,9 +65,9 @@ const Shop = () => {
                 </select>
               </div>
             </Col>
-            <Col lg="6" md="6">
+            <Col lg="6" md="12">
               <div className="search__box">
-                <input type="text" placeholder="Buscar" />
+                <input type="text" placeholder="Buscar"  onChange={handleSearch}/>
                 <span>
                   <i class="ri-search-2-line"></i>
                 </span>
@@ -68,8 +81,9 @@ const Shop = () => {
         <Container>
           <Row >
             {
-              productsData.length === 0? <h1>No se encontraron productos!</h1>
+              productsData.length === 0?<Container className="error_container"> <img src={error} alt="" className="error" /> <h2 >¡UPS! No pudimos encontrar el producto</h2></Container>
               : <ProductList data={productsData}/>
+              
             }
           </Row>
         </Container>

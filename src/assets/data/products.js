@@ -18,7 +18,7 @@ const products = [
         name:"lengua de suegra",
         imgUrl: LenguaDeSuegra,
         category: "interior",
-        price:123,
+        price:233,
         shortDescr: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!"
     },
     {

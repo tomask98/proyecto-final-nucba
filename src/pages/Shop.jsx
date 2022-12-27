@@ -12,6 +12,9 @@ import error from "../assets/404-gif.gif";
 
 
 
+
+
+
 const Shop = () => {
   const [productsData, setProductData] = useState(products);
 

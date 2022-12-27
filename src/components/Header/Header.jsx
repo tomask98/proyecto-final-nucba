@@ -1,5 +1,5 @@
 import React ,{useEffect,useRef,useState}from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink,useNavigate } from "react-router-dom";
 
 import "./header.css";
 
@@ -30,6 +30,7 @@ const Header = () => {
 const headerRef = useRef(null)
 const totalQuantity = useSelector(state=> state.cart.totalQuantity)
 const menuRef= useRef(null)
+const navigate = useNavigate()
 
 const stickyHeaderFun=()=>{
   window.addEventListener('scroll', ()=>{
@@ -48,6 +49,9 @@ useEffect(()=>{
 })
 
 const menuToggle = () => menuRef.current.classList.toggle('active__menu')
+const navigateTOcart = ()=>{
+  navigate("/cart")
+}
 
   return (
     <header className="header" ref={headerRef}>
@@ -87,7 +91,7 @@ const menuToggle = () => menuRef.current.classList.toggle('active__menu')
                 <i class="ri-heart-3-line"></i>
                 <span className="badges">1</span>
               </span>
-              <span className="cart__icon">
+              <span className="cart__icon" onClick={navigateTOcart}>
                 <i class="ri-shopping-cart-2-line"></i>
                 <span className="badges">{totalQuantity}</span>
               </span>

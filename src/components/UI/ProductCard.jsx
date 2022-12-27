@@ -18,7 +18,7 @@ function ProductCard({ item }) {
         id: item.id,
         name: item.name,
         price: item.price,
-        image: item.imgUrl,
+        imgUrl: item.imgUrl,
       })
     );
     toast.success("Producto agragado al carrito")

@@ -45,7 +45,7 @@ const Footer = () => {
 
           <Col lg="3">
           <div className="footer_quick-links">
-              <h4 className="quick__links-title">Horario de atencion</h4>
+              <h4 className="quick__links-title">Horario de atención</h4>
           <ListGroup>
           <ListGroupItem className="ps-0 border-0 ">
                   <span>

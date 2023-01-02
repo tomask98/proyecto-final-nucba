@@ -19,8 +19,8 @@
 }
 .service__item h3{
     color: var( --Cards-text-color);
-    font-weight: 600;
-    font-size: 1.5rem;
+    font-weight: 500;
+    font-size: 1.3rem;
     align-items: center;
 }
 .service__item p {
@@ -51,8 +51,8 @@
 }
 .service__item2 h3{
     color: var( --Cards-text-color);
-    font-weight: 600;
-    font-size: 1.5rem;
+    font-weight: 500;
+    font-size: 1.3rem;
     align-items: center;
 }
 .service__item2 p {
@@ -82,8 +82,8 @@
 }
 .service__item3 h3{
     color: var( --Cards-text-color);
-    font-weight: 600;
-    font-size: 1.5rem;
+    font-weight: 500;
+    font-size: 1.3rem;
     align-items: center;
 }
 .service__item3 p {

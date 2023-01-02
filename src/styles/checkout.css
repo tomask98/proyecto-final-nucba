@@ -1,10 +1,11 @@
 .ticket__form .form__group input{
     border: 1.3px solid var(--primary-color);
-    width: 80%;
+    width: 90%;
     border-radius: 5px;
     text-align: center;
     align-items: center;
     display: flex;
+    justify-content: center;
     
 
 }

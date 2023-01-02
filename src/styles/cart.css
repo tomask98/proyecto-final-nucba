@@ -19,3 +19,30 @@ td i{
     height: 300px;
     width: 400px;
 }
+.cart__text{
+    display: flex;
+    
+    justify-content: space-between;
+    flex-direction: column;
+}
+@media only screen and (max-width: 768px) {
+    section{
+        padding: 60px 0 60px 0;
+    }
+    .table tr img{
+    width: 40px !important;
+    height: 40px !important;
+    object-fit: cover;
+    }
+    .table tr th{
+        padding: 8px 4px 0px 4px ;
+        text-align: center;
+    }
+    .error_container img{
+        height: 200px;
+        width: 250px;
+    }
+    .col-lg-8{
+        padding: 0px;
+    }
+}

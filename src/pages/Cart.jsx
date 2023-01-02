@@ -20,7 +20,7 @@ const Cart = () => {
       <section>
         <Container>
           <Row>
-            <Col lg="9">
+            <Col lg="8">
               {cartItems.length === 0 ? (
                 <Container className="error_container">
                   {" "}
@@ -53,9 +53,10 @@ const Cart = () => {
                 </table>
               )}
             </Col>
-            <Col lg="3">
+            <Col lg="4">
+              <div className="cart__text">
               <div>
-                <h6 className="d-flex align-items-center justify-content-between">Subtotal </h6>
+                <h6 className=" d-flex align-items-center justify-content-between">Subtotal </h6>
                 <span className="fs-4 fw-bold">${totalAmount}</span>
               </div>
               <p className="fs-6 mt-2">Precio sin impuestos y envio</p>
@@ -63,6 +64,7 @@ const Cart = () => {
                 <button className="Buy__btn w-100"><Link to='/Shop' > Continuar  comprando</Link></button>
 
                 <button className="Buy__btn w-100"><Link to='/Checkout' > Comprar</Link></button>
+              </div>
               </div>
             </Col>
           </Row>

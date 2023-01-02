@@ -32,6 +32,7 @@
   align-items: center;
   column-gap: 2.7rem;
   margin-bottom: 0;
+  padding: 0;
 }
 
 .nav__item a {
@@ -73,11 +74,48 @@
   z-index: 10;
 }
 
-.nav__icons span img {
+.nav__icons .profile img {
   width: 45px;
   height: 45px;
   cursor: pointer;
+  border-radius: 50%;
 }
+.nav__icons .profile{
+  position: relative;
+  z-index: 9;
+}
+
+.nav__icons .profile .profile__actions{
+  
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 150px;
+  z-index: 10;
+  padding: 15px;
+
+  background-color: var(--card-bg-03);
+  line-height: 30px;
+  
+  cursor: pointer;
+  
+}
+
+.show__profileActions{
+  
+  display: none;
+  
+  
+}
+.actions a{
+  text-decoration: none;
+  color: unset;
+  font-weight: 600;
+}
+
+
+
+
 
 .mobile__menu {
   font-size: 1.3rem;
@@ -124,6 +162,7 @@
     justify-content: start;
     margin-top: 60px
   }
+  
   
 
   .active__menu {

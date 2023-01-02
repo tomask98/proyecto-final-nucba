@@ -32,7 +32,7 @@ const Services = () => {
                  <motion.div whileHover={{scale:1.05}} className="service__item3">
                     <span >  <i class="ri-whatsapp-line"></i> </span>
                     <div>
-                        <h3>Consultanos por WHATSAPP</h3>
+                        <h3>Consultanos por whatsapp</h3>
                         <p>Estamos para asesorarte</p>
                     </div>
                 </motion.div>

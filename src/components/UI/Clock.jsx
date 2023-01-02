@@ -9,7 +9,7 @@ const Clock = () => {
   let interval ;
   const contDown = () =>{
 
-    const Limit = new Date('january 11, 2023').getTime()
+    const Limit = new Date('january 31, 2023').getTime()
 
     interval = setInterval(() => {
       const now = new Date().getTime()

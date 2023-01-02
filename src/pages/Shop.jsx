@@ -59,15 +59,7 @@ const Shop = () => {
                 </select>
               </div>
             </Col>
-            <Col lg="3" md="6">
-              <div className="filter__widget">
-                <select>
-                  <option>Ordenar Por</option>
-                  <option value="mayor">Mayor</option>
-                  <option value="menor">Menor</option>
-                </select>
-              </div>
-            </Col>
+            
             <Col lg="6" md="12">
               <div className="search__box">
                 <input type="text" placeholder="Buscar"  onChange={handleSearch}/>
